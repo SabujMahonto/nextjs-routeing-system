@@ -2,6 +2,7 @@
   "name": "nextjs-routeing-system",
   "version": "0.1.0",
   "private": true,
+  "keywords": ["nextjs","react"],
   "scripts": {
     "dev": "next dev",
     "build": "next build",
