@@ -1,7 +1,11 @@
+import Link from "next/link"
 
 const BlogPage = () => {
   return (
-    <div><h1>Blog Page</h1></div>
+    <div>
+      <Link href="/">Backt to Home</Link>
+      <h1>Blog Page</h1>
+      </div>
   )
 }
 

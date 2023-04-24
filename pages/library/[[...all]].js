@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { useRouter } from "next/router"
 
 
@@ -25,7 +26,11 @@ function Documentation() {
         )
     }
   return (
-    <div>Documentation</div>
+
+    <div>
+        <Link href="/">Backt to Home</Link>
+       <h1> Documentation</h1>
+        </div>
   )
 }
 

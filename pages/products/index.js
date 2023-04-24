@@ -1,9 +1,11 @@
+import Link from "next/link";
 
 
 export default function ProductList() {
   return (
     <div>
         <h1>ProductList</h1>
+        <Link href="/">Backt to Home</Link>
         <ul>
             <li>Product 1</li>
             <li>Product 2</li>
