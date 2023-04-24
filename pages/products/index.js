@@ -12,7 +12,7 @@ export default function ProductList({productId = 99}) {
             <li><Link href="/products/3">Product 3</Link></li>
             <li><Link href="/products/4">Product 4</Link></li>
             <li><Link href="/products/5">Product 5</Link></li>
-            <li><Link href={`/products/${productId}`}>Product {productId}</Link></li>
+            <li><Link href={`/products/${productId}`} replace>Product {productId}</Link></li>
         </ul>
     </div>
   )
